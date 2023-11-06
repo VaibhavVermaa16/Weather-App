@@ -1,0 +1,39 @@
+.card{
+    border-radius: 10px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: auto;
+    height: auto;
+}
+
+.search-bar{
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    padding-left: 15px;
+    padding:6%;
+
+}
+#search{
+    width: auto;
+    height: 30px;
+    border-radius: 50%;
+    padding: 1.5%;
+}
+.temp{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.details img{
+    width: 30px;
+    height: 30px;
+}
+
+#content{
+    display: none;
+}
+
+input:focus{
+    outline: none;
+}

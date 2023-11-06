@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+  <title>Check Weather</title>
+</head>
+
+<body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+
+  <div class="card" id="card_container">
+    <div class="d-flex justify-content-center align-items-center card "
+      style="width: 20rem; height: auto; padding:10px">
+      <div class="card-body">
+        <div style="text-align: center;">
+          <input class="search-bar" id="input_city" type="text" placeholder="Enter Your City here">
+          <a href="#" onclick="weather()" accesskey="h"><img id="search"
+              src="https://imgs.search.brave.com/_87cgElgheH0nCMViz9KzZ9M32QBlI6jmu2PSRrEEPA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8yMDM3NTAzLTIw/MC5wbmc"
+              alt=""></a>
+        </div>
+        <div id="content">
+          <div style="text-align: center;">
+            <img class="weather_img" src="images/mist.png" alt="weather condition">
+            <h3 id="w_condition">Mist</h3>
+          </div>
+          <div class="temp">
+            <h1 id="temperature">23°C</h1>
+            <h2 id="city">Lucknow</h2>
+          </div>
+
+          <div class="d-flex details align-items-center">
+            <img src="images/humidity.png" alt="">
+            <div style="margin-left: 5px;margin-right: 20px">
+              <h4 style="margin:0px" id="humidity">54%</h4>Humidity
+            </div>
+
+            <img src="images/wind.png" alt="">
+            <div style="margin-left: 5px;">
+              <h4 style="margin:0px" id="wind_speed">50 KM/hr</h4>Wind Speed
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
